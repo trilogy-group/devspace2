@@ -3,4 +3,4 @@ image:
 
 tasks:
   - init: 'dotnet build devspace2.sln'
-    command: 'dotnet watch --project devspace2.csproj run'
+    command: 'dotnet run devspace2.csproj'
