@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: 'dotnet build devspace2.sln'
+    command: 'dotnet watch --project devspace2.csproj run'
